@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f3e9;
+    color: #5d5d5d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b0c4de;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #8faead;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #718c8d;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #6b8e23;
+}
+
+aside {
+    background-color: #e0dcd4;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 4px solid #6b8e23;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.author-img {
+    width: 250px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book {
+    background-color: #fffaf0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #6b8e23;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #556b2f;
+}
+
+.photo-section img {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-left: 4px solid #6b8e23;
+    margin: 20px 0;
+}
+
+mark {
+    background-color: #f8f0b0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #6b8e23;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6b8e23;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-left: 4px solid #6b8e23;
+}
